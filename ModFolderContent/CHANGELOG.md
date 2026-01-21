@@ -1,3 +1,7 @@
+# 0.3.1
+
+* Compatibility: Rebuilt against the latest game assemblies; fixes `MissingMethodException` on startup caused by the updated `Strings.LoadIntoDictionary(..., overwrite)` signature.
+
 # 0.3.0
 
 ! Breaking: Version 0.3.0 is NOT compatible with saves created on older versions (< 0.3.0). Please start a new game when upgrading to 0.3.0 or later.
